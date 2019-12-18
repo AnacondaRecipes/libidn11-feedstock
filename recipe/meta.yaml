@@ -26,8 +26,9 @@ requirements:
     - posix                        # [win]
     # for activating features so we link with correct libiconv
     - {{ compiler('c') }}
+    - make  # [unix]
   host:
-    - libiconv
+    - libiconv  # [not linux]
 
 test:
   commands:
