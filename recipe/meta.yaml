@@ -1,7 +1,7 @@
 {% set name = "libidn" %}
 {% set soversion = "11" %}
-{% set version = "1.33" %}
-{% set sha256 = "44a7aab635bb721ceef6beecc4d49dfd19478325e1b47f3196f7d2acc4930e19" %}
+{% set version = "1.37" %}
+{% set sha256 = "3c8e970d5cd80a8cb56f59c61611535336343942e3f1c81b0190c69993a692c2" %}
 {% set am_version = "1.15" %} # keep synchronized with build.sh
 
 package:
